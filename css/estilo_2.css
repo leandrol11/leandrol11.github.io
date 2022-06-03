@@ -1,0 +1,82 @@
+/* portifólio */
+#portifolio {
+    padding-bottom: 4rem;
+    background-image: url(../img/fundo.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/* título da página */
+.caixa_titulo_da_pagina {
+    padding: 30px 50px;
+}
+
+.titulo_da_pagina {
+    font-size: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    margin: 2rem;
+    color: #294c71;
+}
+
+#container_portifolio {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* itens portifólio 
+#container_portifolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+*/
+.caixa_projeto {
+    height: 35rem;
+    display: flex;
+    padding: 1rem;
+    border: 0.5rem solid black;
+    background-color: white;
+}
+
+/* caixa foto */
+
+
+.caixa_foto_projeto {
+    box-sizing: border-box;
+}
+
+.titulo_projeto {
+    color: black;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 3rem;
+}
+
+.img_projeto {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 5%;
+    border: 0.5rem solid #294c71;
+}
+
+
+/* rodapé */
+#rodape {
+    height: 3rem;
+    padding: 2rem;
+    background: #294c71;
+    bottom: 0;
+}
+
+#texto_rodape {
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: 0;
+}
