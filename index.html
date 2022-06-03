@@ -8,41 +8,54 @@
     <title>Leandro Maciel - Portifólio</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/normalize.css">
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/estilo_2.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilo_2.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/9222da89ac.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <!--início cabeçalho-->
-    <input id="fecha_nav" type="checkbox" aria-label="close menu" role="button">
-    <label id="fecha_nav_label" for="fecha_nav" title="fecha navegação"></label>
-    <header id="navbar">
-        <h1 id="titulo_navbar">
-            <a id="link_navbar" href="#home">Leandro Maciel</a>
-        </h1>
-        <nav>
-            <ul id="nav" onclick="GetElementById('fecha_nav').checked = false;">
-                <li id="nav_lista">
-                    <a id="nav_link" href="#home">Home</a>
-                </li>
-                <li id="nav_lista">
-                    <a id="nav_link" href="#portifolio">Projetos</a>
-                </li>
-                <li id="nav_lista">
-                    <a id="nav_link" href="https://www.linkedin.com/in/leandro-m-o-silva/">
-                        Linkedln
-                    </a>
-                </li>
-                <li id="nav_lista">
-                    <a id="nav_link" href="https://github.com/leandrol11">
-                        GitHub
-                    </a>
-                </li>
-            </ul>
+    <header id="header">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container">
+                <!-- Logo -->
+                <a href="#header" class="navbar-brand">
+                    <h1 class="text-light">
+                        Leandro Maciel
+                    </h1>
+                </a>
+                <!-- Mobile -->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar Início -->
+                <div class="collapse navbar-collapse " id="nav-principal">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#header" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portifolio" class="nav-link">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.linkedin.com/in/leandro-m-o-silva/" class="nav-link">
+                                Linkedln
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com/leandrol11" class="nav-link">
+                                GitHub
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- NavBar Fim -->
+            </div>
         </nav>
     </header>
     <!--fim cabeçalho, início home-->
@@ -55,7 +68,8 @@
                     <b class="subtitulos_home">Sobre Mim</b>
                     <br>
                     Atualmente curso Economia na UFMG, porém estou migrando para a área de programação, cursando no
-                    momento desenvolvimento web, além de já ter feito um curso de Python, ambos pela Udemy. Busco por
+                    momento desenvolvimento web, além de já ter feito um curso de Python, ambos pela Udemy. Busco
+                    por
                     uma oportunidade de entrar no mercado de trabalho para que possa adquirir experiência e por em
                     prática os conhecimentos que venho conquistando.
                     <br>
@@ -67,8 +81,7 @@
                     desenvolvendo
                     ao longo dos meus estudos, me desafiei a criar meu próprio site-portifólio do zero.
                     <br>
-                    A ideia é testar o conhecimento que tenho e fazer tudo sem copiar códigos ou utilizar bootstrap,
-                    de modo que ele seja inteiramente feito "na mão".
+                    A ideia é testar o conhecimento que tenho e ter um currículo mais "apresentável" que o comum.
                     <br>
                 </p>
             </div>
@@ -79,13 +92,16 @@
                     <br>
                     <b class="subtitulos_home">Conhecimentos</b>
                     <br>
-                    Linguagem Python: Curso extracurricular abordando desde a lógica de programação e POO, até Selenium,
+                    Linguagem Python: Curso extracurricular abordando desde a lógica de programação e POO, até
+                    Selenium,
                     Openpyxl, PyQT5, MySQL, SQLite, Django e HTML e CSS Básico.
                     <br>
-                    Desenvolvimento Web: Curso extracurricular em andamento, já tendo sido visto HTML, CSS, Bootstrap e
+                    Desenvolvimento Web: Curso extracurricular em andamento, já tendo sido visto HTML, CSS,
+                    Bootstrap e
                     JavaScript.
                     <br>
-                    Pacote Office: Intermediário (Fórmulas básicas, funções avançadas, gráficos e tabelas dinâmicas).
+                    Pacote Office: Intermediário (Fórmulas básicas, funções avançadas, gráficos e tabelas
+                    dinâmicas).
                     <br>
                     Inglês: Avançado.
                     <br>
@@ -107,7 +123,8 @@
                     <br>
                     Liga de Mercado e Negócios UFMG
                     <br>
-                    Formada por, e para os, alunos da UFMG, a Liga de Mercado e Negócios, LMN, tem como missão “Diminuir
+                    Formada por, e para os, alunos da UFMG, a Liga de Mercado e Negócios, LMN, tem como missão
+                    “Diminuir
                     o hiato entre o mercado de trabalho e os alunos da UFMG”.
                     <br>
 
@@ -129,11 +146,6 @@
                     <b class="subtitulos_home">Informações Adicionais</b>
                     <br>
                     Data de Nascimento: 01/10/2000 - 21 anos
-                    <br>
-                    Rua: José de Carvalho - Bairro: Bom Jesus
-                    <br>
-                    Contagem-MG - CEP: 32185-314 (Região Pampulha)
-                    <br>
                     (31) 99293-7864
                     <br>
                     leandro.mos.l11@gmail.com
@@ -144,43 +156,170 @@
     <!--fim home, início portifólio-->
     <section id="portifolio">
         <div class="caixa_titulo_da_pagina">
-            <h2 class="titulo_da_pagina">Meu Portifólio</h2>
+            <h2 class="titulo_da_pagina text-dark">Meu Portifólio</h2>
         </div>
-        <div id="container_portifolio" class="container">
-            <div class="row justify-content-around">
+        <div class="container">
+            <div class="row justify-content-between">
                 <!--lista de projetos, início projeto-->
-                <div class=" col-md-4 caixa_projeto">
-                    <a href="x" class="link_titulo_projeto">
-                        <h4 class="titulo_projeto">Conteúdo</h4>
+                <div class="caixa_projeto col-md-3 flex-column text-center">
+                    <a href="https://github.com/leandrol11/calculadora_em_js" class="btn">
+                        <h4 class="titulo_projeto">Calculadora Js</h4>
                     </a>
-                    <a class="link_img_projeto" href="x">
-                        <img class="img_projeto" src="img/foto.png">
-                    </a>
+                    <div>
+                        <a class="btn" href="https://github.com/leandrol11/calculadora_em_js">
+                            <img class="img-fluid" src="img/calculadorajs.jpg">
+                        </a>
+                    </div>
                 </div>
-                <div class=" col-md-4 caixa_projeto">
-                    <a href="x" class="link_titulo_projeto">
-                        <h4 class="titulo_projeto">Conteúdo</h4>
+                <!--fim projeto, início projeto-->
+                <div class="caixa_projeto col-md-3 flex-column text-center">
+                    <a href="https://github.com/leandrol11/clone_spotify" class="btn">
+                        <h4 class="titulo_projeto">Clone Spotify</h4>
                     </a>
-                    <a class="link_img_projeto" href="x">
-                        <img class="img_projeto" src="img/foto.png">
-                    </a>
+                    <div>
+                        <a class="btn" href="https://github.com/leandrol11/clone_spotify">
+                            <img class="img-fluid" src="img/spotify.jpg">
+                        </a>
+                    </div>
                 </div>
-                <div class=" col-md-4 caixa_projeto">
-                    <a href="x" class="link_titulo_projeto">
-                        <h4 class="titulo_projeto">Conteúdo</h4>
+                <!--fim projeto, início projeto-->
+                <div class="caixa_projeto col-md-3 flex-column text-center">
+                    <a href="https://github.com/leandrol11/site_finans" class="btn">
+                        <h4 class="titulo_projeto">Finans</h4>
                     </a>
-                    <a class="link_img_projeto" href="x">
-                        <img class="img_projeto" src="img/foto.png">
+                    <div>
+                        <a class="btn" href="https://github.com/leandrol11/site_finans">
+                            <img class="img-fluid" src="img/finans.jpg">
+                        </a>
+                    </div>
+                </div>
+                <!--fim projeto, início projeto-->
+                <div class="caixa_projeto col-md-3 flex-column text-center">
+                    <a href="https://github.com/leandrol11/site_museu_nacional" class="btn">
+                        <h4 class="titulo_projeto">Museu Nacional</h4>
                     </a>
+                    <div>
+                        <a class="btn" href="https://github.com/leandrol11/site_museu_nacional">
+                            <img class="img-fluid" src="img/museu.jpg">
+                        </a>
+                    </div>
+                </div>
+                <!--fim projeto, início projeto-->
+                <div class="caixa_projeto col-md-3 flex-column text-center">
+                    <a href="https://github.com/leandrol11/site_chale" class="btn">
+                        <h4 class="titulo_projeto">Chalé Hotel</h4>
+                    </a>
+                    <div>
+                        <a class="btn" href="https://github.com/leandrol11/site_chale">
+                            <img class="img-fluid" src="img/chale.jpg">
+                        </a>
+                    </div>
+                </div>
+                <!--fim projeto, início projeto-->
+                <div class="caixa_projeto col-md-3 flex-column text-center">
+                    <a href="https://github.com/leandrol11/site_noticias" class="btn">
+                        <h4 class="titulo_projeto">Notícias Cidade</h4>
+                    </a>
+                    <div>
+                        <a class="btn" href="https://github.com/leandrol11/site_noticias">
+                            <img class="img-fluid" src="img/noticias.jpg">
+                        </a>
+                    </div>
+                </div>
+                <!--fim projeto, início projeto-->
+                <div class="caixa_projeto col-md-3 flex-column text-center">
+                    <a href="https://github.com/leandrol11/tecblog" class="btn">
+                        <h4 class="titulo_projeto">TecBlog</h4>
+                    </a>
+                    <div>
+                        <a class="btn" href="https://github.com/leandrol11/tecblog">
+                            <img class="img-fluid" src="img/tecblog.jpg">
+                        </a>
+                    </div>
+                </div>
+                <!--fim projeto, início projeto-->
+                <div class="caixa_projeto col-md-3 flex-column text-center">
+                    <a href="https://github.com/leandrol11/tecblog" class="btn">
+                        <h4 class="titulo_projeto">Blog Anna Belle</h4>
+                    </a>
+                    <div>
+                        <a class="btn" href="https://github.com/leandrol11/tecblog">
+                            <img class="img-fluid" src="img/blog.jpg">
+                        </a>
+                    </div>
+                </div>
+                <!--fim projeto, início projeto-->
+                <div class="caixa_projeto col-md-3 flex-column text-center">
+                    <a href="https://github.com/leandrol11/universidade_unes" class="btn">
+                        <h4 class="titulo_projeto">Unes</h4>
+                    </a>
+                    <div>
+                        <a class="btn" href="https://github.com/leandrol11/universidade_unes">
+                            <img class="img-fluid" src="img/unes.jpg">
+                        </a>
+                    </div>
+                </div>
+                <!--fim projeto, início projeto-->
+                <div class="caixa_projeto col-md-3 flex-column text-center">
+                    <a href="https://github.com/leandrol11/landing_page_teste" class="btn">
+                        <h4 class="titulo_projeto">Landing Page</h4>
+                    </a>
+                    <div>
+                        <a class="btn" href="https://github.com/leandrol11/landing_page_teste">
+                            <img class="img-fluid" src="img/teste.jpg">
+                        </a>
+                    </div>
+                </div>
+                <!--fim projeto, início projeto-->
+                <div class="caixa_projeto col-md-3 flex-column text-center">
+                    <a href="https://github.com/leandrol11/agenda_com_django" class="btn">
+                        <h4 class="titulo_projeto">Agenda Django</h4>
+                    </a>
+                    <div>
+                        <a class="btn" href="https://github.com/leandrol11/agenda_com_django">
+                            <img class="img-fluid" src="img/foto.png">
+                        </a>
+                    </div>
+                </div>
+                <!--fim projeto, início projeto-->
+                <div class="caixa_projeto col-md-3 flex-column text-center">
+                    <a href="https://github.com/leandrol11/calculadora_em_python" class="btn">
+                        <h4 class="titulo_projeto">Calculadora PyQt5</h4>
+                    </a>
+                    <div>
+                        <a class="btn" href="https://github.com/leandrol11/calculadora_em_python">
+                            <img class="img-fluid" src="img/foto.png">
+                        </a>
+                    </div>
                 </div>
                 <!--fim projeto, início projeto-->
             </div>
         </div>
     </section>
-    <!--fim portifólio-->
-    <footer id="rodape">
-        <p id="texto_rodape">by Leandro Maciel</p>
+    <!--fim portifólio -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <!-- Rodapé descrição -->
+            <div class="navbar-brand">
+                <p id="texto_rodape" class="text-light">By Leandro Maciel</p>
+            </div>
+            <a href="#header" class="navbar-brand">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+    </nav>
     </footer>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

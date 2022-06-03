@@ -19,37 +19,18 @@
     line-height: 4rem;
     text-align: center;
     margin: 2rem;
-    color: #294c71;
 }
 
-#container_portifolio {
-    width: 90%;
-    margin: 0 auto;
+/* projetos */
+.col-md-3 {
+    margin: 1.2rem;
 }
 
-/* itens portifólio 
-#container_portifolio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 90%;
-    margin: 0 auto;
-}
-*/
 .caixa_projeto {
     height: 35rem;
-    display: flex;
     padding: 1rem;
     border: 0.5rem solid black;
     background-color: white;
-}
-
-/* caixa foto */
-
-
-.caixa_foto_projeto {
-    box-sizing: border-box;
 }
 
 .titulo_projeto {
@@ -59,21 +40,7 @@
     font-size: 3rem;
 }
 
-.img_projeto {
-    width: 30rem;
-    height: 30rem;
-    border-radius: 5%;
-    border: 0.5rem solid #294c71;
-}
-
-
 /* rodapé */
-#rodape {
-    height: 3rem;
-    padding: 2rem;
-    background: #294c71;
-    bottom: 0;
-}
 
 #texto_rodape {
     font-size: 2rem;
