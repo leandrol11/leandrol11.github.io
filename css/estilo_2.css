@@ -22,26 +22,17 @@
 }
 
 /* projetos */
-.col-md-3 {
-    margin: 1.2rem;
+.col-lg-3 {
+    margin: 1rem;
 }
 
 .caixa_projeto {
-    height: 35rem;
     padding: 1rem;
     border: 0.5rem solid black;
     background-color: white;
 }
 
-.titulo_projeto {
-    color: black;
-    text-align: center;
-    line-height: 3rem;
-    font-size: 3rem;
-}
-
 /* rodapé */
-
 #texto_rodape {
     font-size: 2rem;
     line-height: 2rem;
