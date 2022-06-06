@@ -1,12 +1,6 @@
 /* portifólio */
 #portifolio {
     padding-bottom: 4rem;
-    background-image: url(../img/fundo.jpg);
-    background-repeat: repeat-y;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
 }
 
 /* título da página */

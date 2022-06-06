@@ -10,6 +10,12 @@ html {
 
 body {
     font-family: 'Quicksand', sans-serif;
+    background-image: url(../img/fundo.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
 }
 
 ul {
@@ -30,16 +36,11 @@ a {
 
 /* home */
 #home {
-    padding-top: 8rem;
-    background-image: url(../img/fundo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
+    padding-top: 5rem;
     display: flex;
     flex: nowrap;
 }
+
 
 #coluna_esquerda_home,
 #coluna_direita_home {
@@ -66,7 +67,7 @@ a {
 
 #texto_coluna_esquerda_home,
 #texto_coluna_direita_home {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.4);
     box-sizing: border-box;
     border-radius: 2rem;
     padding: 3rem;
@@ -79,6 +80,10 @@ a {
 
 .subtitulos_home {
     font-size: 2.5rem;
+}
+
+p {
+    color: white;
 }
 
 /* Home mobile */
