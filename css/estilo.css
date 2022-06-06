@@ -10,12 +10,7 @@ html {
 
 body {
     font-family: 'Quicksand', sans-serif;
-    background-image: url(../img/fundo.jpg);
-    background-repeat: repeat-y;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
+    background: #B3E8E5;
 }
 
 ul {
@@ -28,15 +23,29 @@ a {
 }
 
 /* navbar */
+.navbar-brand {
+    padding: 1rem;
+}
+
+.navbar {
+    background-color: #2F8F9D;
+}
+
 .navbar-dark .navbar-nav .nav-link {
     color: white;
     font-size: 1.5rem;
     padding: 1rem;
+    border-color: none;
+}
+
+.navbar-dark .navbar-toggler {
+    color: white;
+    border-color: #2F8F9D;
 }
 
 /* home */
 #home {
-    padding-top: 5rem;
+    padding-top: 7rem;
     display: flex;
     flex: nowrap;
 }
@@ -67,7 +76,7 @@ a {
 
 #texto_coluna_esquerda_home,
 #texto_coluna_direita_home {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: white;
     box-sizing: border-box;
     border-radius: 2rem;
     padding: 3rem;
@@ -83,7 +92,7 @@ a {
 }
 
 p {
-    color: white;
+    color: black;
 }
 
 /* Home mobile */

@@ -13,6 +13,7 @@
     line-height: 4rem;
     text-align: center;
     margin: 2rem;
+    color: white;
 }
 
 /* projetos */
@@ -23,12 +24,17 @@
 .caixa_projeto {
     padding: 1rem;
     border: 0.5rem solid black;
+    border-radius: 2rem;
     background-color: white;
+}
+
+.img-fluid {
+    border-radius: 1rem;
 }
 
 /* rodapé */
 #texto_rodape {
     font-size: 2rem;
     line-height: 2rem;
-    padding: 0;
+    padding-top: 1rem;
 }
